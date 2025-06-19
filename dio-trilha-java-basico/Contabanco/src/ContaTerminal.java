@@ -18,7 +18,7 @@ public class ContaTerminal {
         System.out.print("Digite o valor que deseja depositar: ");
         double deposit = sc.nextDouble();
 
-        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é: %s, conta: %d e seu saldo de: %.2f, já esta disponível para saque.  ",name, numberAgency,numberAccount,deposit);
+        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é: %s, conta: %d e seu saldo é de: %.2f, já esta disponível para saque.  ",name, numberAgency,numberAccount,deposit);
 
 
 
